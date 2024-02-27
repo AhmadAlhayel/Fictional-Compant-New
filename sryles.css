@@ -1,0 +1,117 @@
+body h1 {
+  color: #be3168;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #be3168;
+  color: white;
+}
+.home {
+  background-image: url(Images/Con.png);
+  background-size: cover; /* Anpassar bilden för att täcka hela elementet */
+  background-position: center; /* Centrerar bilden */
+  padding: 250px;
+}
+.home div {
+  font-size: large;
+  background-color: #ffe1ef;
+  opacity: 0.7;
+}
+ul li {
+  font-size: large;
+  display: inline;
+  margin-right: 80px;
+}
+
+.ProductsLogo {
+  display: flex;
+  align-items: center;
+}
+.ProductsLogo imag {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+.p1-Products {
+  color: #be3168;
+}
+.Productsimges {
+  margin-right: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.ProductsimgesLogo1 h3,
+.ProductsimgesLogo2 h3,
+.ProductsimgesLogo3 h3 {
+  color: #be3168;
+}
+.ProductsimgesLogo1,
+.ProductsimgesLogo2,
+.ProductsimgesLogo3 {
+  text-align: center;
+}
+.Productsimges > div {
+  flex-basis: 29%;
+}
+
+button {
+  background-color: #be3168;
+  border: none;
+  color: white; /* Vit text */
+  padding: 15px 32px; /* Utfyllnad */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+button:hover {
+  background-color: #f72984; /* Mörkare grön färg vid hover */
+}
+
+.AboutUs p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.AboutUs h1 {
+  background-color: #ffe1ef;
+  font-size: 45;
+  margin-bottom: 60px;
+}
+.AboutUsp {
+  color: #be3168;
+  background-color: #ffe1ef;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.AboutUsp div {
+  margin: 0;
+}
+AboutUsp img {
+  display: block;
+  margin: 0;
+}
+.AboutUSFooter {
+  background-color: #be3168;
+  padding: 80px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.Contact {
+  background-image: url(Images/Con.png);
+  font-size: x-large;
+  line-height: 2;
+  background-size: cover; /* Anpassar bilden för att täcka hela elementet */
+  background-position: center; /* Centrerar bilden */
+  padding: 230px; /* Lägger till lite utfyllnad för bättre läsbarhet */
+}
+.Contact div {
+  background-color: #fff;
+  opacity: 0.7;
+}
